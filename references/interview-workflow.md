@@ -120,13 +120,12 @@ Ask:
 
 1. Palette: one of the five choices, `我提供自定义色卡/色值`, or `你根据内容选择`.
 2. Default theme: `浅色` `深色` `跟随系统`.
-3. English display font: `粘贴我自己的 Adobe Fonts Web Project 代码` or `使用内置 DM Serif Display`. If the user supplies Adobe code, extract only its `https://use.typekit.net/<project-id>.css` URL and determine the declared CSS font-family from the stylesheet when readable. Never request or accept a Gallery Modern `.otf`, `.ttf`, `.woff`, or `.woff2` file. If the code is missing, unreadable, or invalid, use DM Serif Display without blocking the build.
 
 Do not ask for a reference website or style. A custom color card may influence semantic colors only; never copy its layout, typography, gradients, blur, artwork, or decorative treatment.
 
 ## Stage 8: Build brief
 
-Summarize exact section order, displayed identity, content count, hero asset plan, language strategy, compressed About statement, resume files or omission, palette, English display-font source, and omitted features. Record either the approved Adobe Web Project stylesheet plus its declared CSS family, or the bundled DM Serif Display fallback. Include a material-driven Work/Lab layout decision: chosen composition family, featured items, spans, media crops, and why it fits the uploaded media. State that outer gutters remain locked while internal project composition may vary. Explicitly record `no More about me`, `no detail pages`, and `About has Download resume only`. Separate `implementation now`, `production blockers`, and `can be completed later`.
+Summarize exact section order, displayed identity, content count, hero asset plan, language strategy, compressed About statement, resume files or omission, palette, and omitted features. Include a material-driven Work/Lab layout decision: chosen composition family, featured items, spans, media crops, and why it fits the uploaded media. State that outer gutters remain locked while internal project composition may vary. Explicitly record `no More about me`, `no detail pages`, and `About has Download resume only`. Separate `implementation now`, `production blockers`, and `can be completed later`.
 
 Ask one confirmation: `确认开始生成` `需要修改` `还要补资料`. Build only after confirmation and when no implementation blocker remains.
 

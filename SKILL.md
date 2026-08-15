@@ -36,7 +36,7 @@ Create a production-ready personal site from the bundled Next.js starter. Preser
 1. Read `references/interview-workflow.md` and begin at Stage 0.
 2. Maintain a cumulative material inventory and missing-data ledger after every stage.
 3. Read `references/content-contract.md`; normalize files and answers into one `site-content.ts` object. Keep English and Chinese fields paired.
-4. Present a concise build brief for confirmation: displayed identity, project order, hero mode, compressed About statement, selected palette, locale behavior, resume behavior, display-font source, and the Work/Lab layout decision.
+4. Present a concise build brief for confirmation: displayed identity, project order, hero mode, compressed About statement, selected palette, locale behavior, resume behavior, and the Work/Lab layout decision.
 5. Scaffold with:
 
    ```bash
