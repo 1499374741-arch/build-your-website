@@ -1,0 +1,145 @@
+{
+  "active": "release-tide",
+  "palettes": [
+    {
+      "id": "release-tide",
+      "label": { "en": "Release Tide", "zh": "舒展潮汐" },
+      "sourceColors": ["#E0F0F8", "#FFF9B1", "#C0E890"],
+      "enabled": true,
+      "light": {
+        "background": "#E0F0F8",
+        "foreground": "#173329",
+        "muted": "#FFF9B1",
+        "mutedForeground": "#40564F",
+        "border": "#B8D9E5",
+        "accent": "#C0E890",
+        "accentForeground": "#173329",
+        "darkBand": "#173329",
+        "darkBandForeground": "#FFF9B1"
+      },
+      "dark": {
+        "background": "#102720",
+        "foreground": "#F4FAF6",
+        "muted": "#244337",
+        "mutedForeground": "#B8CDC4",
+        "border": "#365A4B",
+        "accent": "#C0E890",
+        "accentForeground": "#173329",
+        "darkBand": "#091A15",
+        "darkBandForeground": "#FFF9B1"
+      }
+    },
+    {
+      "id": "mediterranean-dawn",
+      "label": { "en": "Mediterranean Dawn", "zh": "地中海晨光" },
+      "sourceColors": ["#C5E0E8", "#FFD1D1", "#A8E6A3"],
+      "enabled": true,
+      "light": {
+        "background": "#C5E0E8",
+        "foreground": "#183234",
+        "muted": "#FFD1D1",
+        "mutedForeground": "#526064",
+        "border": "#A7CBD5",
+        "accent": "#A8E6A3",
+        "accentForeground": "#183234",
+        "darkBand": "#183234",
+        "darkBandForeground": "#FFF4F4"
+      },
+      "dark": {
+        "background": "#13292D",
+        "foreground": "#F4FAFB",
+        "muted": "#3C3034",
+        "mutedForeground": "#C4CDD0",
+        "border": "#40575D",
+        "accent": "#A8E6A3",
+        "accentForeground": "#183234",
+        "darkBand": "#0A1A1D",
+        "darkBandForeground": "#FFD1D1"
+      }
+    },
+    {
+      "id": "imperfect-vitality",
+      "label": { "en": "Imperfect Vitality", "zh": "不完美生命力" },
+      "sourceColors": ["#F5E8DA", "#C4DFAA", "#FF8C69"],
+      "enabled": true,
+      "light": {
+        "background": "#F5E8DA",
+        "foreground": "#2A211C",
+        "muted": "#C4DFAA",
+        "mutedForeground": "#66584F",
+        "border": "#DDCDBD",
+        "accent": "#FF8C69",
+        "accentForeground": "#2A211C",
+        "darkBand": "#263229",
+        "darkBandForeground": "#F5E8DA"
+      },
+      "dark": {
+        "background": "#251D19",
+        "foreground": "#F8EEE5",
+        "muted": "#34422E",
+        "mutedForeground": "#CBBDB3",
+        "border": "#53453C",
+        "accent": "#FF8C69",
+        "accentForeground": "#251D19",
+        "darkBand": "#151A16",
+        "darkBandForeground": "#F5E8DA"
+      }
+    },
+    {
+      "id": "free-sail",
+      "label": { "en": "Free Sail", "zh": "自由轻盈" },
+      "sourceColors": ["#F7F7F7", "#FFC9C9", "#FFF9B1"],
+      "enabled": true,
+      "light": {
+        "background": "#F7F7F7",
+        "foreground": "#271D24",
+        "muted": "#FFC9C9",
+        "mutedForeground": "#65565F",
+        "border": "#E5D7DA",
+        "accent": "#FFF9B1",
+        "accentForeground": "#271D24",
+        "darkBand": "#271D24",
+        "darkBandForeground": "#FFF9B1"
+      },
+      "dark": {
+        "background": "#211A20",
+        "foreground": "#F8F4F6",
+        "muted": "#49383F",
+        "mutedForeground": "#CDBFC5",
+        "border": "#5B4851",
+        "accent": "#FFF9B1",
+        "accentForeground": "#271D24",
+        "darkBand": "#120F12",
+        "darkBandForeground": "#FFC9C9"
+      }
+    },
+    {
+      "id": "lazy-liberty",
+      "label": { "en": "Lazy Liberty", "zh": "自在松弛" },
+      "sourceColors": ["#E8CEC8", "#C8B8D9", "#9CD9C9"],
+      "enabled": true,
+      "light": {
+        "background": "#E8CEC8",
+        "foreground": "#241E24",
+        "muted": "#C8B8D9",
+        "mutedForeground": "#60545F",
+        "border": "#D1B7B5",
+        "accent": "#9CD9C9",
+        "accentForeground": "#17312B",
+        "darkBand": "#201C27",
+        "darkBandForeground": "#F4EDEF"
+      },
+      "dark": {
+        "background": "#201C27",
+        "foreground": "#F4EDEF",
+        "muted": "#3E3448",
+        "mutedForeground": "#C8BDC9",
+        "border": "#51435C",
+        "accent": "#9CD9C9",
+        "accentForeground": "#17312B",
+        "darkBand": "#121018",
+        "darkBandForeground": "#E8CEC8"
+      }
+    }
+  ]
+}

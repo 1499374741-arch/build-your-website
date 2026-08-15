@@ -1,0 +1,4 @@
+interface:
+  display_name: "Build Your Website"
+  short_description: "逐步收集页面内容，生成固定版式的中英双语个人作品集"
+  default_prompt: "使用 $build-your-website，按页面实际展示字段逐步收集基础资料、首屏、Work、Lab、精简介绍、简历和配色；不要询问用途、受众或参考网站，确认简报后再生成中英双语个人作品集网站。"

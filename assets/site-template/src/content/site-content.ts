@@ -1,0 +1,193 @@
+import type { SiteContent } from "@/types/site";
+
+const local = (en: string, zh: string) => ({ en, zh });
+
+export const siteContent: SiteContent = {
+  typography: {
+    adobeWebProject: {
+      stylesheetUrl: "",
+      fontFamily: "gallery-modern",
+    },
+  },
+  preferences: {
+    storageKey: "REPLACE_ME-portfolio",
+    defaultLocale: "browser",
+    defaultTheme: "system",
+  },
+  layout: {
+    work: "balanced-grid",
+    lab: "phone-gallery",
+  },
+  person: {
+    name: local("REPLACE_ME Name", "待替换姓名"),
+    role: local("REPLACE_ME role and point of view.", "待替换职业与个人主张。"),
+    support: local("REPLACE_ME short supporting sentence.", "待替换的一句补充介绍。"),
+    email: "hello@example.com",
+    location: local("REPLACE_ME city", "待替换城市"),
+  },
+  navigation: {
+    work: local("Work", "作品"),
+    lab: local("Lab", "实验"),
+    about: local("About", "关于"),
+    resume: local("Resume", "简历"),
+    sayHi: local("Say Hi", "联系我"),
+    menu: local("Open menu", "打开菜单"),
+    close: local("Close menu", "关闭菜单"),
+    themeLight: local("Switch to light mode", "切换为浅色模式"),
+    themeDark: local("Switch to dark mode", "切换为深色模式"),
+  },
+  sections: {
+    portfolioLabel: local("Portfolio", "作品集"),
+    selectedWork: local("Selected work", "精选作品"),
+    workIntro: local("REPLACE_ME portfolio introduction.", "待替换的作品集简介。"),
+    labTitle: local("Things I", "这些是我"),
+    labAccent: local("designed & built.", "设计并做出来的。"),
+    labIntro: local("REPLACE_ME secondary-project introduction.", "待替换的实验项目简介。"),
+    aboutLabel: local("About", "关于"),
+    viewWork: local("View my work", "查看作品"),
+    aboutMe: local("About me", "关于我"),
+    sayHello: local("Say hello", "打个招呼"),
+    downloadResume: local("Download resume", "下载简历"),
+    email: local("Email", "邮箱"),
+    elsewhere: local("Elsewhere", "其他平台"),
+    basedIn: local("Based in", "所在地"),
+    scrollTop: local("Back to top", "返回顶部"),
+  },
+  hero: {
+    src: "/media/hero.webp",
+    type: "image",
+    alt: local("REPLACE_ME hero portrait", "待替换的首屏人像"),
+    objectPosition: "62% center",
+    overlay: 0.28,
+  },
+  work: [
+    {
+      slug: "project-one",
+      title: local("REPLACE_ME Project One", "待替换项目一"),
+      meta: local("REPLACE_ME · Role", "待替换 · 职责"),
+      summary: local("REPLACE_ME one-sentence outcome.", "待替换的一句话项目成果。"),
+      year: "2026",
+      media: {
+        src: "/media/work-01.webp",
+        type: "image",
+        alt: local("REPLACE_ME project image", "待替换项目图片"),
+      },
+    },
+    {
+      slug: "project-two",
+      title: local("REPLACE_ME Project Two", "待替换项目二"),
+      meta: local("REPLACE_ME · Role", "待替换 · 职责"),
+      summary: local("REPLACE_ME one-sentence outcome.", "待替换的一句话项目成果。"),
+      year: "2025",
+      media: {
+        src: "/media/work-02.webp",
+        type: "image",
+        alt: local("REPLACE_ME project image", "待替换项目图片"),
+      },
+    },
+    {
+      slug: "project-three",
+      title: local("REPLACE_ME Project Three", "待替换项目三"),
+      meta: local("REPLACE_ME · Role", "待替换 · 职责"),
+      summary: local("REPLACE_ME one-sentence outcome.", "待替换的一句话项目成果。"),
+      year: "2025",
+      media: {
+        src: "/media/work-03.webp",
+        type: "image",
+        alt: local("REPLACE_ME project image", "待替换项目图片"),
+      },
+    },
+    {
+      slug: "project-four",
+      title: local("REPLACE_ME Project Four", "待替换项目四"),
+      meta: local("REPLACE_ME · Role", "待替换 · 职责"),
+      summary: local("REPLACE_ME one-sentence outcome.", "待替换的一句话项目成果。"),
+      year: "2024",
+      media: {
+        src: "/media/work-04.webp",
+        type: "image",
+        alt: local("REPLACE_ME project image", "待替换项目图片"),
+      },
+    },
+  ],
+  lab: [
+    {
+      slug: "lab-one",
+      title: local("REPLACE_ME Side Project", "待替换实验项目"),
+      meta: local("REPLACE_ME · Category", "待替换 · 类别"),
+      summary: local("REPLACE_ME compact description.", "待替换的简短说明。"),
+      year: "2026",
+      media: {
+        src: "/media/lab-01.webp",
+        type: "image",
+        alt: local("REPLACE_ME side-project image", "待替换实验项目图片"),
+      },
+      presentation: "phone",
+    },
+    {
+      slug: "lab-two",
+      title: local("REPLACE_ME Side Project", "待替换实验项目"),
+      meta: local("REPLACE_ME · Category", "待替换 · 类别"),
+      summary: local("REPLACE_ME compact description.", "待替换的简短说明。"),
+      year: "2025",
+      media: {
+        src: "/media/lab-02.webp",
+        type: "image",
+        alt: local("REPLACE_ME side-project image", "待替换实验项目图片"),
+      },
+      presentation: "phone",
+    },
+    {
+      slug: "lab-three",
+      title: local("REPLACE_ME Side Project", "待替换实验项目"),
+      meta: local("REPLACE_ME · Category", "待替换 · 类别"),
+      summary: local("REPLACE_ME compact description.", "待替换的简短说明。"),
+      year: "2024",
+      media: {
+        src: "/media/lab-03.webp",
+        type: "image",
+        alt: local("REPLACE_ME side-project image", "待替换实验项目图片"),
+      },
+      presentation: "phone",
+    },
+  ],
+  about: {
+    statement: local("REPLACE_ME concise personal statement.", "待替换的精简个人介绍。"),
+  },
+  resume: {
+    mode: "shared",
+    shared: "/resume/resume.pdf",
+  },
+  contact: {
+    socials: [
+      { label: "LinkedIn", href: "https://www.linkedin.com/" },
+    ],
+    copyrightName: "REPLACE_ME",
+    credit: local("Designed and built with care", "认真设计与搭建"),
+  },
+  palette: {
+    id: "release-tide",
+    light: {
+      background: "#E0F0F8",
+      foreground: "#173329",
+      muted: "#FFF9B1",
+      mutedForeground: "#40564F",
+      border: "#B8D9E5",
+      accent: "#C0E890",
+      accentForeground: "#173329",
+      darkBand: "#173329",
+      darkBandForeground: "#FFF9B1",
+    },
+    dark: {
+      background: "#102720",
+      foreground: "#F4FAF6",
+      muted: "#244337",
+      mutedForeground: "#B8CDC4",
+      border: "#365A4B",
+      accent: "#C0E890",
+      accentForeground: "#173329",
+      darkBand: "#091A15",
+      darkBandForeground: "#FFF9B1",
+    },
+  },
+};
